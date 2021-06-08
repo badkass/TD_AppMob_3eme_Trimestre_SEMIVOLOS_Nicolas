@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:background="@color/background">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/Nom_saisie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="58dp"
+        android:inputType="textPersonName"
+        android:text="@string/name" />
+
+    <EditText
+        android:id="@+id/Prenom_saisie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/Nom_saisie"
+        android:inputType="textPersonName"
+        android:text="@string/prenom" />
+
+    <RadioGroup
+        android:id="@+id/groupGenre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Prenom_saisie">
+
+        <RadioButton
+            android:id="@+id/radioHomme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Homme" />
+
+        <RadioButton
+            android:id="@+id/radioFemme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Femme" />
+
+        <RadioButton
+            android:id="@+id/radioAutre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Autre" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/Email_saisie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/groupGenre"
+        android:ems="10"
+        android:hint="@string/e_mail"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/Phone_saisie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@id/Email_saisie"
+        android:inputType="textPersonName"
+        android:text="@string/telephone" />
+
+    <Button
+        android:id="@+id/Save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/Phone_saisie"
+        android:text="@string/Save"/>
+    //android:onClick="confirmationInput"/>
+
+    <TextView
+        android:id="@+id/Saved_name"
+        android:layout_below="@id/Save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/Saved_surname"
+        android:layout_below="@id/Saved_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textGenre"
+        android:layout_below="@id/Saved_surname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textview" />
+
+    <TextView
+        android:id="@+id/Saved_mail"
+        android:layout_below="@id/textGenre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textview" />
+
+    <TextView
+        android:id="@+id/Saved_phone"
+        android:layout_below="@id/Saved_mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textview" />
+
+    <TextView
+        android:id="@+id/Compteur_saisie"
+        android:layout_below="@id/Saved_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textview" />
+    //android:onClick="confirmationInput"/>
+</RelativeLayout>
+</ScrollView>

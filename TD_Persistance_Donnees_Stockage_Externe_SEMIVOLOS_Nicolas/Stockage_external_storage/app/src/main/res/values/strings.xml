@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Stockage_external_storage</string>
+    <string name="chargement" translatable="false">Chargement...</string>
+    <string name="desc_splash_screen" translatable="false">desc</string>
+    <string name="save">Save</string>
+    <string name="load">Load</string>
+</resources>

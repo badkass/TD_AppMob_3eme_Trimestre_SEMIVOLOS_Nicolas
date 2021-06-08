@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="Size_Et_splash">40dp</dimen>
+    <dimen name="textsize_splash">30sp</dimen>
+    <dimen name="marginTop_splash">100dp</dimen>
+    <dimen name="Height_splash">300dp</dimen>
+    <dimen name="marginTop2">60dp</dimen>
+    <dimen name="text">10sp</dimen>
+    <dimen name="margeInt">10dp</dimen>
+    <dimen name="marginTopButton">50dp</dimen>
+</resources>

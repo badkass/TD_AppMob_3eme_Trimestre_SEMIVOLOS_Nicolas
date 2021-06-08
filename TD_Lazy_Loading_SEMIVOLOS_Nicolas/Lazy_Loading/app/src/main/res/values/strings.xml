@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lazy_Loading</string>
+    <string name="Afficher" translatable="false">Afficher</string>
+    <string name="btn2" translatable="false">Bouton 2</string>
+    <string name="chargement" translatable="false">Chargement...</string>
+    <string name="desc_splash_screen" translatable="false">desc</string>
+</resources>

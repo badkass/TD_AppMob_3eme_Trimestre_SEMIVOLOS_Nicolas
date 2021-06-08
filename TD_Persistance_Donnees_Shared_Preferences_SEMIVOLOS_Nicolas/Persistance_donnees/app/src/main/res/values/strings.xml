@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Persistance_donnees</string>
+
+    //splash screen
+    <string name="chargement" translatable="false">Chargement...</string>
+    <string name="desc_splash_screen" translatable="false">desc</string>
+
+    //form
+    <string name="valider" translatable="false">valider</string>
+    <string name="nom" translatable="false">Nom :</string>
+    <string name="prénom" translatable="false">Prénom :</string>
+    <string name="mail" translatable="false">Adresse e-mail :</string>
+    <string name="phone" translatable="false">Téléphone :</string>
+    <string name="Homme" translatable="false">Homme</string>
+    <string name="Femme" translatable="false">Femme</string>
+    <string name="Autre" translatable="false">Autre</string>
+    <string name="e_mail" translatable="false">E-mail</string>
+    <string name="telephone" translatable="false">Telephone</string>
+    <string name="Save" translatable="false">Valider</string>
+
+    //réponses
+    <string name="textview" translatable="false">TextView</string>
+    <string name="prenom" translatable="false">Prenom</string>
+    <string name="name" translatable="false">Name</string>
+</resources>
