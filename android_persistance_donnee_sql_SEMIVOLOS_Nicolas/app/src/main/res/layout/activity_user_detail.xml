@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserDetailActivity">
+
+    <TextView
+        android:id="@+id/UsernameDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/username"
+        android:layout_marginLeft="@dimen/maMarge"/>
+    <TextView
+        android:id="@+id/EmailDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:layout_marginLeft="@dimen/maMarge"/>
+    <Button
+        android:id="@+id/btnEditUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="EDIT"
+        android:layout_marginLeft="@dimen/maMarge"/>
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="DELETE"
+        android:layout_marginLeft="@dimen/maMarge"/>
+</LinearLayout>
